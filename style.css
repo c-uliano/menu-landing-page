@@ -84,7 +84,7 @@ h3.menu_item {
 }
 
 .column {
-    border: 1px solid pink;
+    /* border: 1px solid pink; */
     width: 50%;
 }
 
