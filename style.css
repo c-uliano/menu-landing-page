@@ -35,7 +35,7 @@ h2.header_main {
 h3.menu_item {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    font-size: normal;
+    font-style: normal;
     font-size: 14px;
 }
 
@@ -47,11 +47,28 @@ h3.menu_item {
     margin-bottom: 8px;
 }
 
+.price_main,
+.price_bold {
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
 .price_main {
+    font-weight: 500;
+}
+
+.price_bold {
+    font-weight: 800;
+}
+
+.footnote {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: italic;
     font-size: 10px;
+    margin-bottom: 8px;
+    margin-top: 12px;
 }
 
 .margin-bottom {
@@ -59,6 +76,10 @@ h3.menu_item {
 }
 
 .margin-top {
+    margin-top: 8px;
+}
+
+.par_margin-top {
     margin-top: 4px;
 }
 
@@ -67,8 +88,21 @@ h3.menu_item {
     width: 50%;
 }
 
-.logo {
+.inner-container {
+    display: flex;
+    gap: 1.5em;
+}
+
+.logo-left,
+.logo-right {
     position: absolute;
-    left: 12px;
     bottom: 12px;
+}
+
+.logo-left {
+    left: 12px;
+}
+
+.logo-right {
+    right: 12px;
 }
